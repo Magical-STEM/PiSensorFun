@@ -1,4 +1,4 @@
-# SensorFun
+# PiSensorFun
 Fun workshop using Raspberry Pi and SenseHat. You will need the hardware and software setup and very basic programming language to completevthis fun workshop!
 
 # Hardware Setup:
@@ -19,7 +19,7 @@ Fun workshop using Raspberry Pi and SenseHat. You will need the hardware and sof
 In this project you will use the basics of Python and Raspberrpy Pi with senese hat.
 
 
-## Project : Marble Maze Fun
+## Project : Marble Maze Game
 
 In this project you will create a marble maze game that can be played on the LED matrix of your Sense HAT. You will use the in-built orientation sensors of the Sense HAT to control the movement of the marble, simulating the way a real marble rolls around a maze.
 
