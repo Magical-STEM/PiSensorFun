@@ -1,13 +1,15 @@
 # PiSensorFun
 Fun workshop using Raspberry Pi and SenseHat. You will need the hardware and software setup and very basic programming language to completevthis fun workshop!
 
-# Hardware Setup:
+![maze1](orientation.jpg)
+
+## Hardware Setup:
 
 1. Raspberry Pi 4/5 connected to a monitor, mouse keyboard and power.
 2. SenseHat add-on board with LED Matrix display, joystick and pressure, humidity, temperature, colour, orientation, movement sensors.
 
 
-# Software Setup
+## Software Setup
 
 - Connect your Sense HAT and boot up the Raspberry Pi.
 
