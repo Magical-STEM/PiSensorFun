@@ -1,6 +1,6 @@
-# Sense Hat Marble Maze
+# Solve the Maze Game
 
-A marble maze is a game of skill and dexterity: one or more marbles are placed inside a maze, and the player guides them to a specific point by tilting the maze in various directions, causing the marbles to roll around.
+Tradional marble maze is a game of skill and dexterity: one or more marbles are placed inside a maze, and the player guides them to a specific point by tilting the maze in various directions, causing the marbles to roll around.
 
 ![Marble Maze](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Round_maze.jpg/775px-Round_maze.jpg)
 
@@ -25,11 +25,11 @@ Given that the Sense HAT is capable of reporting its exact orientation and has a
 
 1. To begin with you're going to need to display your maze on the LED matrix. It's best to use some squared paper to draw the design out first, so that you can easily identify the paths through the maze. The layout is up to you, but you could use the example below if you wanted. It is important that the maze is constructed from solid walls, and that there are no diagonal gaps.
 
-	![maze1](images/maze1.jpg)
+	![maze1](maze1.jpg)
 
 1. Once you have drawn your maze, write down the initial of the colour used for each square.
 
-	![maze2](images/maze2.jpg)
+	![maze2](maze2.jpg)
 
 1. Now you can implement this in code. First, you'll need to define the colours that you are using.
 
@@ -155,7 +155,7 @@ Given that the Sense HAT is capable of reporting its exact orientation and has a
 
 1. The marble's movement will be controlled by the orientation of the Sense HAT. The Sense HAT library can detect the pitch, roll and yaw of the board. You can see a picture illustrating this below.
 
-	![orientation](images/orientation.png)
+	![orientation](orientation.png)
 
 1. You don't need the yaw orientation of the Sense HAT for this project, just the pitch and the roll. Add these two lines into the `while` loop, so that you get constant and up-to-date readings of the orientation, and it looks like this:
 
