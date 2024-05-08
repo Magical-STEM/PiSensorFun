@@ -9,10 +9,33 @@ Fun workshop using Raspberry Pi and SenseHat. You will need the hardware and sof
 
 # Software Setup
 
-1. Make sure Raspberry Pi OS is installed on the Raspberry Pi.
-2. Make sure Python version 3.x is installed alongside Python IDE
-3. Download / Clone this project and move it to a directory where you prefer on the Raspberry Pi.
+- Connect your Sense HAT and boot up the Raspberry Pi.
 
+- First update and upgrade your system by entering the following commands into a terminal window (while connected to the internet):
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+- Now install the Sense HAT software packages:
+
+```bash
+sudo apt-get install sense-hat
+sudo pip install pillow
+```
+
+- Reboot the Pi to complete the installation:
+
+```bash
+sudo reboot
+```
+
+- Finally, Python installation by typing the following command and it should print the current version of Python 3.x
+
+```bash
+python3 --version
+```
 
 ## Projects: Hello Sense Pi!
 
